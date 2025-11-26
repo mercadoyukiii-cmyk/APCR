@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EventDriven.Project.Model\EventDriven.Project.Model.csproj" />
+    <ProjectReference Include="..\EventDriven.Project.Repository\EventDriven.Project.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
